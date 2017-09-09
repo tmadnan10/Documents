@@ -1,0 +1,35 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Centralized Approach}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Distributed Approach}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{PCA as Data Analytic Approach}{}% 4
+\BOOKMARK [1][-]{section.3}{Our Focus}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Tall and Wide Data}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{The Blessings and Curses of Geo Distributed Data}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Background}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{An EM Algorithm for Probabilistic PCA}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Recent Implementation of sPCA}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{Special Features}{section.5}% 11
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Mean Propagation to Leverage Sparsity}{subsection.5.1}% 12
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Minimizing Intermediate Data}{subsection.5.1}% 13
+\BOOKMARK [3][-]{subsubsection.5.1.3}{Efficient Matrix Multiplication}{subsection.5.1}% 14
+\BOOKMARK [3][-]{subsubsection.5.1.4}{Efficient Frobenius Norm Computation}{subsection.5.1}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Limitations}{section.5}% 16
+\BOOKMARK [1][-]{section.6}{Our Proposed Approach}{}% 17
+\BOOKMARK [2][-]{subsection.6.1}{Handling Tall and Wide Big Data}{section.6}% 18
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Step 1 - Partition of Principal Subspace W}{subsection.6.1}% 19
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Step 2 - Data Partition}{subsection.6.1}% 20
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Step 3 - Expectation Step and Omission of Noise Model}{subsection.6.1}% 21
+\BOOKMARK [3][-]{subsubsection.6.1.4}{Step 4 - Maximization Step}{subsection.6.1}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Accumulation of partial results from geographically distributed clusters}{section.6}% 23
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Step 1: Generating The Initial Graph}{subsection.6.2}% 24
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Step 2: Generating MST}{subsection.6.2}% 25
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Step 3: Sub Tree Generation for Parallel Accumulation}{subsection.6.2}% 26
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Step 4: Redistribution of Final Accumulated Result}{subsection.6.2}% 27
+\BOOKMARK [1][-]{section.7}{Contribution}{}% 28
+\BOOKMARK [1][-]{section.8}{Properties of our Approach}{}% 29
+\BOOKMARK [1][-]{section.9}{Implementation in Spark Cluster System}{}% 30
+\BOOKMARK [1][-]{section.10}{Evaluation}{}% 31
+\BOOKMARK [2][-]{subsection.10.1}{Cluster Setup}{section.10}% 32
+\BOOKMARK [2][-]{subsection.10.2}{Data Sets}{section.10}% 33
+\BOOKMARK [1][-]{section.11}{Conclusion}{}% 34
+\BOOKMARK [1][-]{section*.1}{References}{}% 35
